@@ -3,7 +3,7 @@
 
 # 引用方法
 依赖
-```xml
+```groovy
 repositories {
     jcenter()
 }
