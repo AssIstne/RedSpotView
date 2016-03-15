@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RedSpotView">
+        <attr name="spotText" format="string"/>
+        <attr name="spotTextSize" format="dimension"/>
+        <attr name="spotTextColor" format="color"/>
+        <attr name="spotColor" format="color"/>
+        <attr name="spotDiameter" format="dimension"/>
+        <attr name="spot_marginTop" format="dimension"/>
+        <attr name="spot_marginRight" format="dimension"/>
+        <attr name="spot_marginLeft" format="dimension"/>
+        <attr name="spot_marginBottom" format="dimension"/>
+        <attr name="spot_visibility" format="boolean"/>
+        <attr name="spot_gravity">
+            <flag name="left" value="8"/>
+            <flag name="top" value="4"/>
+            <flag name="right" value="2"/>
+            <flag name="bottom" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
