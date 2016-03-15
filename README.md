@@ -3,7 +3,7 @@
 
 # 引用方法
 依赖
-```
+```xml
 repositories {
     jcenter()
 }
@@ -12,7 +12,7 @@ compile 'com.assistne.android:red-spot-view:1.0.1'
 ```
 
 # 使用方法
-```
+```xml
 <com.assistne.android.RedSpotView
     android:layout_width="100dp"
     android:layout_height="100dp"
@@ -35,6 +35,7 @@ compile 'com.assistne.android:red-spot-view:1.0.1'
 不要使用`wrap_content`指定`RedSpotView`的大小.
 
 可以使用的属性包括:
+
 1. `spot_marginLeft`:圆点左侧外边距
 2. `spot_marginTop`:圆点顶部外边距
 3. `spot_marginRight`:圆点右侧外边距
